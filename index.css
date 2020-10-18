@@ -1,12 +1,51 @@
 .clicked {
-    color: #7f8c8d;
-  }
-  
-  .form,
-  .greetings {
-    display: none;
-  }
-  
-  .showing {
-    display: block;
-  }
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: flex;
+}
+
+input {
+  size: 250%;
+}
+
+body {
+  margin: 0px;
+  background-color: thistle;
+}
+
+.todo {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 100px;
+  opacity: 100%;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  margin-right: 100px;
+  font-size: large;
+  border-radius: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  opacity: 80%;
+}
+
+input {
+  padding: 10px 40px 10px;
+  border-color: aliceblue;
+  font-size: 15px;
+}
